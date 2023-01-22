@@ -127,25 +127,23 @@
 .mission_header{
     width: 229px;
     height: 66px;
-    font-family: 'Bitter';
+    font-family: 'Bitter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
     line-height: 72px;
     color: #FFFFFF;
-    font-family: 'Bitter', serif;
 }
 
 .mission_description {
     width: 671px;
     height: 190px;
-    font-family: 'Bitter';
+    font-family: 'Bitter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
-    font-family: 'Bitter', serif;
 }
 
 
