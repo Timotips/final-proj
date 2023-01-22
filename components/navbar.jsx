@@ -11,7 +11,7 @@ export default function Navbar() {
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div> */}
-            <Image src="/nav_backgroud.png" width={'1926'} height={'54'} alt="Navbar Background" className={styles.navbar_background} /> 
+            <Image src="/nav_backgroud.png" width={'1920'} height={'54'} alt="Navbar Background" className={styles.navbar_background} /> 
 
             <ul className={styles.navbar_menu}>
                 <div className={styles.logo}>
@@ -21,7 +21,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className={styles.buttons}>
-                    <Link href="/" className={styles.navbar_links}>Discovery</Link>
+                    <Link href="/" className={styles.navbar_links}>Discover</Link>
                     <Link href="./registration" className={styles.navbar_links}>Register</Link>
                 </div>
             </ul>

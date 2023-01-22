@@ -13,36 +13,36 @@ const Register  = () => {
             
 
             <div className={styles.reg_container}>
-                <div className={styles.reg_box}>
-                    <h1 className={styles.info}>Registration Form</h1>
+                <div className={styles.frst_division}>
+                    <h1 className={styles.info}>Registration Form:</h1>
                     <div className={styles.req_line}>
-                        <div className={styles.firstname_box}>
+                        <div className={styles.box}>
                             <p className={styles.question}>Firstname:</p>
                             <input className={styles.first_name} type="text" name="input_box" />
                         </div>
-                        <div className={styles.lastname_box}>
+                        <div className={styles.box}>
                             <p className={styles.question}>Lastname:</p>
                             <input className={styles.last_name} type="text" name="input_box" />
                         </div>
                     </div>
 
                     <div className={styles.req_line}>
-                        <div className={styles.email_box}>
+                        <div className={styles.box}>
                             <p className={styles.question}>Email:</p>
                             <input className={styles.email} type="text" name="input_box" />
                         </div>
-                        <div className={styles.mobile_box}>
+                        <div className={styles.box}>
                         <p className={styles.question}>Mobile:</p>
                             <input className={styles.mobile} type="text" name="input_box" />
                         </div>
                     </div>
 
                     <div className={styles.req_line}>
-                        <div className={styles.address_box}>
+                        <div className={styles.box}>
                             <p className={styles.question}>Address:</p>
                             <input className={styles.address} type="text" name="input_box" />        
                         </div>
-                        <div className={styles.returnee_box}>
+                        <div className={styles.box}>
                         <p className={styles.question}>Old Student?:</p>
                             <div className={styles.radio_box}>
                                 <div className={styles.radio_container}>
@@ -63,8 +63,8 @@ const Register  = () => {
                     </div>
                 </div>
 
-                <div className={styles.button}>
-                    <Link href="/" className={styles.enter_btn}>Enter</Link>        
+                <div className={styles.scnd_division}>
+                    <Link href="/" className={styles.submit_btn}>Enter</Link>        
                 </div>
                 
             </div>

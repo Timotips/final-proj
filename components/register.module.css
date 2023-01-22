@@ -4,6 +4,7 @@
     height: 990px;
     justify-content: center;
     align-items: center;
+    background: #583535;
 }
 
 .background {
@@ -23,7 +24,7 @@
     display: flex;
     gap: 48px;
 }
-.reg_box {
+.frst_division {
     flex-direction: column;
     display: flex;
     gap: 29.45px;
@@ -31,68 +32,39 @@
 }
 
 .info {
+    width: 455px;
+    height: 51px;
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 50px;
     line-height: 61px;
     color: #FFFFFF;
-    width: 455px;
-    height: 51px;
-    font-family: 'Inter', sans-serif;
 }
 
 .req_line {
     display: flex;
-    gap: 30px;
+    gap: 41.98px;
 }
 
-.frth_line {
-    flex-direction: right;
-
-}
-
-.firstname_box {
+.ques_line {
     flex-direction: column;
     display: flex;
-
+    gap: 16.16px;
 }
 
-.lastname_box {
+.box {
     flex-direction: column;
     display: flex;
-
+    gap: 8.52px;
 }
-
-.email_box {
-    flex-direction: column;
-    display: flex;
-}
-
-.mobile_box {
-    flex-direction: column;
-    display: flex;
-
-}
-
-.address_box {
-    flex-direction: column;
-    display: flex;
-}
-
-.returnee_box {
-    flex-direction: column;
-    display: flex;
-
-}
-
-
 
 .question {
     width: 103.21px;
     height: 23.67px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
@@ -103,11 +75,42 @@
     height: 17px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
+}
+
+.radio_box {
+    flex-direction: row;
+    display: flex;
+    gap: 35px;
+}
+
+.radio_container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.radio_container  p {
+    width: 32px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.input {
+    background: #FFFFFF;
+    border: 1px solid #D38282;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    width: 625.08px;
+    height: 80.49px;
 }
 
 /* input boxes */
@@ -158,52 +161,31 @@
 }
 
 .returnee {
-    background: #FFFFFF;
-    border: 1px solid #D38282;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 48px;
     width: 29px;
     height: 29px;
-    font-family: 'Inter', sans-serif;
-}
-
-.radio_box {
-    flex-direction: row;
-    display: flex;
-    
-}
-
-.input {
     background: #FFFFFF;
     border: 1px solid #D38282;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 16px;
-    width: 625.08px;
-    height: 80.49px;
+    border-radius: 48px;
 }
 
 
-.button {
-    justify-content: center;
+.submit_btn {
+    display: flex;
     align-items: center;
-    background: radial-gradient(366.67% 366.67% at 49.62% 50%, rgba(211, 137, 137, 0.81) 0%, rgba(217, 217, 217, 0) 100%);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(10px);
-    border-radius: 48px;
+    justify-content: center;
     width: 154px;
     height: 55px;
-    text-align: center;
-}
-
-.enter_btn {
-    width: 90px;
-    height: 27px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
+    background: radial-gradient(366.67% 366.67% at 49.62% 50%, rgba(211, 137, 137, 0.81) 0%, rgba(217, 217, 217, 0) 100%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 48px;
 }
 

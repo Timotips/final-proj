@@ -16,6 +16,7 @@ const Title  = () => {
                 </div>
                 <div className={styles.second_division}>
                     <div className={styles.details}>
+                        <h2 className={styles.motto}>“Chacun le sien”</h2>
                         <h1 className={styles.name}>Sacred Heart College</h1>
                     </div>
                     <div className={styles.button}>

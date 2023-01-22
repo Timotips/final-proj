@@ -26,33 +26,29 @@
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .acc {
     flex-direction: column;
     display: flex;
     gap: 32px;
-    justify-content: center;
     align-items: center;
 }
 
 .groups {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 21px;
+    justify-content: center;
+    gap: 35px;
 }
 
 .details {
     width: 194px;
-    height: 18px;
+    height: 23px;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
-    text-align: center;
     color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
-
 }
