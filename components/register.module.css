@@ -31,6 +31,7 @@
     color: #FFFFFF;
     width: 455px;
     height: 51px;
+    font-family: 'Inter', sans-serif;
 }
 
 .frst_line {
@@ -100,6 +101,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
 }
 
 .last_question {
@@ -111,6 +113,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
 }
 
 /* input boxes */
@@ -206,5 +209,6 @@
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
 }
 
