@@ -1,6 +1,6 @@
 @font-face
-  font-family: 'Roboto Condensed';
-  src: url(<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">);
+  font-family: 'Bitter', 'Inter', 'Old Standard TT', 'Open Sans', 'Poppins', 'Quicksand';
+  src: url(<link href="https://fonts.googleapis.com/css2?family=Bitter&family=Inter&family=Old+Standard+TT&family=Open+Sans&family=Poppins:wght@500&family=Quicksand:wght@500&display=swap" rel="stylesheet">);
 
 .main {
   display: flex;
