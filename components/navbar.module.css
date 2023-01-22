@@ -46,6 +46,7 @@
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    font-family: 'Old Standard TT', serif;
 }
 
 .buttons {
@@ -65,4 +66,5 @@
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
 }
