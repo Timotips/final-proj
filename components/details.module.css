@@ -83,6 +83,7 @@
     line-height: 115px;
     text-align: center;
     color: #FFFFFF;
+    font-family: 'Bitter', serif;
 }
 
 .description {
@@ -94,6 +95,7 @@
     line-height: 38px;
     text-align: center;
     color: #FFFFFF;
+    font-family: 'Bitter', serif;
 }
 
 .number {
@@ -106,6 +108,7 @@
     line-height: 72px;
     text-align: center;
     color: #FFFFFF;
+    font-family: 'Bitter', serif;
 }
 
 .info {
@@ -118,12 +121,13 @@
     line-height: 38px;
     text-align: center;
     color: #FFFFFF;
+    font-family: 'Bitter', serif;
 }
 
 .mission_header{
     width: 229px;
     height: 66px;
-    font-family: 'Bitter';
+    font-family: 'Bitter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
@@ -134,7 +138,7 @@
 .mission_description {
     width: 671px;
     height: 190px;
-    font-family: 'Bitter';
+    font-family: 'Bitter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
