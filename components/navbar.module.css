@@ -39,7 +39,6 @@
 .navbar_title {
     width: 227px;
     height: 29px;
-    font-family: 'Old Standard TT';
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
@@ -59,7 +58,6 @@
 .navbar_links {
     width: 98px;
     height: 29px;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;

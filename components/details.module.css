@@ -76,7 +76,6 @@
 .percentage {
     width: 201px;
     height: 113px;
-    font-family: 'Bitter';
     font-style: normal;
     font-weight: 400;
     font-size: 96px;
@@ -88,7 +87,6 @@
 
 .description {
     width: 359px;
-    font-family: 'Bitter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -101,7 +99,6 @@
 .number {
     width: 86px;
     height: 66px;
-    font-family: 'Bitter';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
@@ -114,7 +111,6 @@
 .info {
     width: 284px;
     height: 34px;     
-    font-family: 'Bitter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
