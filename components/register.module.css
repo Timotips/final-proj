@@ -31,7 +31,6 @@
 }
 
 .info {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -39,6 +38,7 @@
     color: #FFFFFF;
     width: 455px;
     height: 51px;
+    font-family: 'Inter', sans-serif;
 }
 
 .req_line {
@@ -90,7 +90,7 @@
 .question {
     width: 103.21px;
     height: 23.67px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -101,12 +101,13 @@
 .last_question {
     width: 259px;
     height: 17px;
-    font-family: 'Inter';
+    ont-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
 }
 
 /* input boxes */
@@ -163,19 +164,13 @@
     border-radius: 48px;
     width: 29px;
     height: 29px;
+    font-family: 'Inter', sans-serif;
 }
 
 .radio_box {
     flex-direction: row;
     display: flex;
-    gap: 35px;
-}
-
-.radio_container {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
+    
 }
 
 .input {
@@ -203,7 +198,7 @@
 .enter_btn {
     width: 90px;
     height: 27px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
