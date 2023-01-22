@@ -1,0 +1,210 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.background {
+    position: absolute;
+    z-index: 0;
+}
+
+.reg_box {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 625.17px;
+    height: 575px;
+    margin-top: 10%;
+    margin-right: 60%;
+    gap: 29.45px;
+}
+
+.info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+    width: 455px;
+    height: 51px;
+}
+
+.frst_line {
+    display: flex;
+    justify-content: right;
+}
+
+.scnd_line {
+    display: flex;
+    justify-content: right;
+}
+
+.thrd_line {
+    display: flex;
+    justify-content: right;
+}
+
+.frth_line {
+    flex-direction: right;
+
+}
+
+.firstname_box {
+    flex-direction: column;
+    display: flex;
+
+}
+
+.lastname_box {
+    flex-direction: column;
+    display: flex;
+
+}
+
+.email_box {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile_box {
+    flex-direction: column;
+    display: flex;
+
+}
+
+.address_box {
+    flex-direction: column;
+    display: flex;
+}
+
+.returnee_box {
+    flex-direction: column;
+    display: flex;
+
+}
+
+
+
+.question {
+    width: 103.21px;
+    height: 23.67px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.last_question {
+    width: 259px;
+    height: 17px;
+    ont-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+/* input boxes */
+
+.first_name {
+    background: #FFFFFF;
+    border: 1px solid #D38282;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 48px;
+    width: 291.55px;
+    height: 28.41px;
+}
+
+.last_name {
+    background: #FFFFFF;
+    border: 1px solid #D38282;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 48px;
+    width: 291.55px;
+    height: 28.41px;
+}
+
+.email {
+    background: #FFFFFF;
+    border: 1px solid #D38282;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 48px;
+    width: 291.55px;
+    height: 28.41px;
+}
+
+.mobile {
+    background: #FFFFFF;
+    border: 1px solid #D38282;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 48px;
+    width: 291.55px;
+    height: 28.41px;
+}
+
+.address {
+    background: #FFFFFF;
+    border: 1px solid #D38282;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 48px;
+    width: 291.55px;
+    height: 28.41px;
+}
+
+.returnee {
+    background: #FFFFFF;
+    border: 1px solid #D38282;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 48px;
+    width: 29px;
+    height: 29px;
+}
+
+.radio_box {
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.input {
+    background: #FFFFFF;
+    border: 1px solid #D38282;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    width: 625.08px;
+    height: 80.49px;
+}
+
+
+.button {
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(366.67% 366.67% at 49.62% 50%, rgba(211, 137, 137, 0.81) 0%, rgba(217, 217, 217, 0) 100%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 48px;
+    width: 154px;
+    height: 55px;
+}
+
+.enter_btn {
+    width: 90px;
+    height: 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
