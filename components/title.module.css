@@ -42,7 +42,7 @@
 .name {
     width: 661px;
     height: 264.25px;
-    font-family: 'Old Standard TT';
+    font-family: 'Old Standard TT', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 110px;
@@ -58,7 +58,7 @@
     height: 64.12px;
     background: radial-gradient(354.82% 507.01% at 50% 49.4%, #A74545 0%, rgba(213, 22, 22, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     border-radius: 29px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
