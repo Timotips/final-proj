@@ -20,7 +20,7 @@ const Title  = () => {
                         <h1 className={styles.name}>Sacred Heart College</h1>
                     </div>
                     <div className={styles.button}>
-                        <Link href="/" className={styles.register_btn}>Register</Link>
+                        <Link href="./registration" className={styles.register_btn}>Register</Link>
                     </div>
                 </div>
             </div>
