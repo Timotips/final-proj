@@ -6,6 +6,8 @@
     display: flex;
     background: #583535;
     gap: 174px;
+    z-index: 2;
+    position: relative;
 }
 
 

@@ -5,21 +5,44 @@
     align-items: center;
     display: flex;
     background: #714949;
+    z-index: 2;
+    position: relative;
 }
 
 .background{
     position: absolute;
-    z-index: 0;
     justify-content: center;
     align-items: center;
     display: flex;
     width: 1920px;
-    height: 691px;
+    height: 965px;
     background: #56575E;
+    z-index: 0;
+}
+
+.background_headear {
+    width: 1920px;
+    height: 144px;
+    position: absolute;
+    top: 0;
+    background: #714949;
+    z-index: 4;
+}
+
+.background_footer {
+    width: 1920px;
+    height: 137px;
+    position: absolute;
+    bottom: 0;
+    background: #714949;
+    z-index: 4;
 }
 
 .details_background {
     mix-blend-mode: overlay;
+    /* position: fixed;
+    z-index: 0; */
+    top: 50%;
 }
 
 .title {
