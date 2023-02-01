@@ -8,8 +8,6 @@ const Details  = () => {
         <div className={styles.container}>
             <div className={styles.background}>
                 <Image src="/details_background.png" width={'1920'} height={'691'} alt="Rooms" className={styles.details_background} /> 
-                <div className={styles.background_headear}></div>
-                <div className={styles.background_footer}></div>
             </div>
             <div className={styles.title}>
                 <div className={styles.first_division}>

@@ -54,3 +54,165 @@
     line-height: 21px;
     color: #FFFFFF;
 }
+
+@media only screen and (max-width: 1336px) {
+    .container{
+        width: 100%;
+        height: 125px;
+        gap: 121px;
+    }
+    
+    .divisions {
+        gap: 81px;
+    }
+    
+    .contxt {
+        width: 83px;
+        height: 14px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .acc {
+        gap: 28px;
+    }
+    
+    .groups {
+        gap: 15px;
+    }
+    
+    .details {
+        width: 134.99px;
+        height: 14.06px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .gmail_logo {
+        width: 27.14px;
+        height: 23.44px;
+    }
+
+    .phone_logo {
+        width: 18px;
+        height: 18px;
+    }
+
+    .twitter_logo {
+        width: 16.7px;
+        height: 19.53px;
+    }
+
+    .insta_logo {
+        width: 16px;
+        height: 17.97px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        height: 91px;
+        gap: 49px;
+    }
+
+    .divisions {
+        gap: 27px;
+    }
+    
+    .contxt {
+        width: 63px;
+        height: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    
+    .acc {
+        gap: 21px;
+    }
+    
+    .groups {
+        gap: 8px;
+    }
+    
+    .details {
+        width: 97px;
+        height: 10px;
+        font-size: 7px;
+        line-height: 10px;
+    }
+
+    .gmail_logo {
+        width: 15.64px;
+        height: 17.06px;
+    }
+
+    .phone_logo {
+        width: 13px;
+        height: 13px;
+    }
+
+    .twitter_logo {
+        width: 11px;
+        height: 11px;
+    }
+
+    .insta_logo {
+        width: 16px;
+        height: 17.97px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .container{
+        width: 100%;
+        height: 61px;
+        gap: 18px;
+    }
+
+    .divisions {
+        gap: 14px;
+    }
+    
+    .contxt {
+        width: 31px;
+        height: 7px;;
+        font-size: 6px;
+        line-height: 8px;
+    }
+    
+    .acc {
+        gap: 10px;
+    }
+    
+    .groups {
+        gap: 4px;
+    }
+    
+    .details {
+        width: 48px;
+        height: 7px;
+        font-size: 4px;
+        line-height: 6px;
+    }
+
+    .gmail_logo {
+        width: 7.31px;
+        height: 11.44px;
+    }
+
+    .phone_logo {
+        width: 7px;
+        height: 7px;
+    }
+
+    .twitter_logo {
+        width: 7px;
+        height: 7px;
+    }
+
+    .insta_logo {
+        width: 6px;
+        height: 6px;
+    }
+}

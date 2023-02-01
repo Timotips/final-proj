@@ -12,16 +12,30 @@
     z-index: 0;
 }
 
+.title {
+    display: none;
+}
+
+.title_background {
+    width: 100%;
+    height: 990px; 
+    object-fit: cover;
+}
+
+.second_background {
+    display: none;
+}
+
 
 .reg_container {
-    margin-top: 100px;
-    margin-right: 1100px;
+    justify-content: center;
     align-items: center;
+    padding-right: 1000px;
     height: 575px;
-    width: 625.17px;
+    width: 1920px;
     z-index: 1;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     gap: 48px;
 }
 .frst_division {
@@ -189,3 +203,451 @@
     border-radius: 48px;
 }
 
+@media only screen and (max-width: 1336px) {
+    .container {
+        width: 100%;
+        height: 769px;
+    }
+    
+    .title_background {
+        width: 100%;
+        height: 769px;
+    }
+    
+    
+    .reg_container {
+        width: 100%;
+        height: 769px;
+        justify-content: center;
+        padding-left: 230px;
+    }
+
+    .frst_division {
+        gap: 26.6px;
+    }
+    
+    .info {
+        width: 335.52px;
+        height: 36.54px;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 44px;
+    }
+    
+    .req_line {
+        gap: 30.96px;
+    }
+    
+    .ques_line {
+        gap: 11.58px;
+    }
+    
+    .box {
+        gap: 6.11px;
+    }
+    
+    .question {
+        width: 76.11px;
+        height: 16.96px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .last_question {
+        width: 190.99px;
+        height: 12.18px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .radio_box {
+        gap: 25.81px;
+    }
+    
+    .radio_container {
+        gap: 8.85px;
+    }
+    
+    .radio_container  p {
+        width: 23.6px;
+        height: 12.18px;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    
+    .input {
+        width: 460.94px;
+        height: 57.68px;
+        border-radius: 16px;
+    }
+    
+    /* input boxes */
+    
+    .first_name {
+        width: 214.99px;
+        height: 20.36px;
+    }
+    
+    .last_name {
+        width: 214.99px;
+        height: 20.36px;
+    }
+    
+    .email {
+        width: 214.99px;
+        height: 20.36px;
+    }
+    
+    .mobile {
+        width: 214.99px;
+        height: 20.36px;
+    }
+    
+    .address {
+        width: 214.99px;
+        height: 20.36px;
+    }
+    
+    .returnee {
+        width: 21.38px;
+        height: 20.78px;
+    }
+    
+    
+    .submit_btn {
+        width: 113.56px;
+        height: 39.41px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1052px) {
+    .container {
+        width: 100%;
+        height: 850px;
+    }
+
+    .title_background {
+        width: 100%;
+        height: 850px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        height: 1024px;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 257px;
+        background: #704A4A;
+    }
+
+    .background {
+        position: absolute;
+        width: 100%;
+        height: 610px;
+        top: 0;
+    }
+    
+    .title_background {
+       display: none;
+
+    }
+
+    .second_background{
+        display: unset;
+        width: 100%;
+        height: 610px;
+        object-fit: cover;
+    }
+
+    .background_overlay {
+        z-index: 4;
+        position: absolute;
+        width: 100%;
+        height: 293px;
+        background: #704A4A;
+        mix-blend-mode: overlay;
+        top: 170px;
+    }
+
+    .title {
+        align-items: center;
+        justify-content: center;
+        display: unset;
+        display: flex;
+        flex-direction: row;
+        z-index: 5;
+        position: relative;
+        width: 100%;
+        height: 293px;
+        gap: 38px;
+        padding-top: 280px;
+    }
+
+    .title_logo {
+        width: 246px;
+        height: 197.74px; 
+    }
+
+    .name {
+        width: 304px;
+        height: 132px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+
+    .reg_container {
+        padding-top: 50px;
+        position: relative;
+        padding-left: 1000px;
+        width: 100%;
+        height: 414px;
+        gap: 44.77px;
+    }
+
+    .frst_division {
+        gap: 19.05px;
+    }
+    
+    .info {
+        width: 484.72px;
+        height: 26.17px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    
+    .req_line {
+        gap: 44.72px;
+    }
+    
+    .ques_line {
+        gap: 8.29px;
+    }
+    
+    .box {
+        gap: 4.37px;
+    }
+    
+    .question {
+        width: 109.95px;
+        height: 12.15px;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .last_question {
+        width: 275.92px;
+        height: 8.72px;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .radio_box {
+        gap: 25.81px;
+    }
+    
+    .radio_container {
+        gap: 8.85px;
+    }
+    
+    .radio_container  p {
+        width: 20px;
+        height: 7.83px;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .input {
+        width: 665.91px;
+        height: 41.3px;
+        border-radius: 16px;
+    }
+    
+    /* input boxes */
+    
+    .first_name {
+        width: 310.59px;
+        height: 14.58px;
+    }
+    
+    .last_name {
+      width: 310.59px;
+        height: 14.58px;
+    }
+    
+    .email {
+        width: 310.59px;
+        height: 14.58px;
+    }
+    
+    .mobile {
+        width: 310.59px;
+        height: 14.58px;
+    }
+    
+    .address {
+        width: 310.59px;
+        height: 14.58px;
+    }
+    
+    .returnee {
+        width: 14px;
+        height: 14.55px;
+    }
+    
+    
+    .submit_btn {
+        width: 113.56px;
+        height: 39.41px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .container {
+        width: 100%;
+        height: 1024px;
+    }
+
+    .background_overlay {
+        width: 100%;
+        height: 419px;
+        top: 115px;
+    }
+
+    .title {
+        width: 360px;
+        height: 419px;
+    }
+
+    .title_logo {
+        display: none;
+    }
+
+    .name {
+        width: 291px;
+        height: 130px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+
+    .reg_container {
+        padding-bottom: 100px;
+        width: 285px;
+        height: 311.42px;
+        gap: 48.34px;
+    }
+
+    .frst_division {
+        gap: 19.05px;
+    }
+    
+    .info {
+        width: 207.42px;
+        height: 26.17px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    
+    .req_line {
+        gap: 19.14px;
+    }
+    
+    .ques_line {
+        gap: 8.59px;
+    }
+    
+    .question {
+        width: 47.05px;
+        height: 12.15px;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .last_question {
+        width: 142px;
+        height: 8px;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .radio_box {
+        gap: 11.34px;
+    }
+    
+    .radio_container {
+        gap: 5.36px;
+    }
+    
+    .radio_container  p {
+        width: 21.3px;
+        height: 7.83px;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .input {
+        width: 284.96px;
+        height: 41.3px;
+        border-radius: 12px;
+    }
+    
+    /* input boxes */
+    
+    .first_name {
+        width: 132.91px;
+        height: 14.58px;
+    }
+    
+    .last_name {
+        width: 132.91px;
+        height: 14.58px;
+    }
+    
+    .email {
+        width: 132.91px;
+        height: 14.58px;
+    }
+    
+    .mobile {
+        width: 132.91px;
+        height: 14.58px;
+    }
+    
+    .address {
+        width: 132.91px;
+        height: 14.58px;
+    }
+    
+    .returnee {
+        width: 15px;
+        height: 15px;
+    }
+    
+    
+    .submit_btn {
+        width: 82.04px;
+        height: 28.42px;
+        font-size: 12px;
+    }
+}

@@ -10,11 +10,12 @@
 .background{
     position: absolute;
     z-index: 1;
-    width: 1920px;
+    width: 100%;
     height: 1023px;
 }
 
 .title_background {
+    width: 100%;
     position: fixed;
     z-index: 0;
     top: 0;
@@ -25,6 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
 }
 
 .background_overlay {
@@ -38,17 +40,20 @@
 }
 
 .title {
+    width: 100%;
+    height: 661.6px;
     display: flex;
     position: relative;
     gap: 99px;
     justify-content: center;
     align-items: center;
     z-index: 3;
+    object-fit: cover;
 }
 
 .second_division{
     width: 723px;
-    height: 661.6px;
+    height: 100%;
     background: #431F1F;
     gap: 54.26px;
     align-items: center;
@@ -56,28 +61,28 @@
     flex-direction: column;
     display: flex;
     margin-bottom: 24px;
+    object-fit: cover;
 }
 
 .details {
     flex-direction: column;
     display: flex;
     gap: 30px;
+    width: 100%;
+    padding-left: 51px;
 }
 
 .motto {
-    width: 240px;
     height: 26px;
     font-family: 'Slabo 13px';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 37px;
-    text-align: center;
     color: #FFFFFF;
 }
 
 .name {
-    width: 636px;
     height: 219px;
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -88,7 +93,8 @@
 }
 
 .button {
-    width: 636px;
+    width: 100%;
+    padding-left: 51px;
 }
 
 .register_btn {
@@ -108,3 +114,259 @@
     color: #FFFFFF;
 }
 
+
+@media only screen and (max-width: 1336px) {
+
+    .container{
+        width: 100%;
+        height: 768px;
+    }
+    
+    .background{
+        width: 100%;
+        height: 768px;
+    }
+    
+    .title_background {
+        width: 100%;
+        height: 768px;
+    }
+    
+    .background_overlay {
+        height: 398.66px;
+        width: 100%;
+        top: 175px;
+    }
+    
+    .title {
+        gap: 130px;
+        height: 398.66px;
+        width: 100%;
+    }
+
+    .title_logo {
+        width: 371.35px;
+        height: 296.86px;
+    }
+    
+    .second_division{
+        height: 100%;
+        width: 479px;
+        gap: 31.04px;
+    }
+    
+    .motto {
+        width: 100%;
+        height: 15.51px;
+        font-size: 24px;
+    }
+    
+    .name {
+        width: 100%;
+        height: 115px;
+        font-size: 64px;
+        line-height: 64px;
+    }
+    
+    .button {
+        width: 100%;
+    }
+    
+    .register_btn {
+        width: 130.82px;
+        height: 38.61px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 969px) {
+    .background_overlay {
+        height: 350px;
+        width: 100%;
+        top: 200px;
+    }
+    
+    .title {
+        gap: 50px;
+        height: 350px;
+        width: 100%;
+    }
+
+    .title_logo {
+        width: 300px;
+        height: 240px;
+    }
+    
+    .second_division{
+        height: 100%;
+        width: 390px;
+        gap: 20px;
+    }
+    
+    .motto {
+        width: 100%;
+        height: 15.51px;
+        font-size: 16px;
+    }
+    
+    .name {
+        width: 100%;
+        height: 115px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    .button {
+        width: 100%;
+    }
+    
+    .register_btn {
+        width: 130.82px;
+        height: 38.61px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container{
+        width: 100%;
+        height: 1024px;
+    }
+    
+    .background{
+        width: 100%;
+        height: 1024px;
+    }
+    
+    .title_background {
+        width: 100%;
+        height: 1024px;
+
+    }
+    
+    .background_overlay {
+        width: 100%;
+        height: 490.55px;
+        top: 255px;
+    }
+    
+    .title {
+        gap: 21.6px;
+        width: 100%;
+        height: 490.55px;
+    }
+
+    .title_logo {
+        width: 294px;
+        height: 235.79px;
+    }
+    
+    .second_division{
+        width: 289.2px;
+        height: 490.5px;
+        gap: 35px;
+    }
+
+    .details {
+        gap: 25px;
+        padding-left: 20px;
+    }
+    
+    .motto {
+        width: 100%;
+        height: 11px;
+        font-size: 12px;
+    }
+    
+    .name {
+        width: 255px;
+        height: 80px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .button {
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    .register_btn {
+        width: 108.31px;
+        height: 35.33px;
+        line-height: 19px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+
+    .container{
+        width: 100%;
+        height: 800px;
+    }
+    
+    .background{
+        width: 100%;
+        height: 800px;
+    }
+    
+    .title_background {
+        width: 100%;
+        height: 800px;
+    }
+    
+    .background_overlay {
+        width: 100%;
+        height: 480.67px;
+        top: 175px;
+        background: radial-gradient(245.5% 245.51% at 50% 104.85%, #973434 0%, rgba(157, 3, 3, 0) 100%);
+        mix-blend-mode: overlay;
+    }
+    
+    .title {
+        gap: 21.6px;
+        width: 100%;
+        height: 490.55px;
+    }
+
+    .title_logo {
+        display: none;
+    }
+    
+    .second_division{
+        width: 289.2px;
+        height: 490.5px;
+        gap: 35px;
+        background-color: transparent;
+    }
+
+    .details {
+        gap: 25px;
+        padding-left: 20px;
+    }
+    
+    .motto {
+        width: 100%;
+        height: 11px;
+        font-size: 12px;
+    }
+    
+    .name {
+        width: 255px;
+        height: 80px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .button {
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    .register_btn {
+        width: 108.31px;
+        height: 35.33px;
+        line-height: 19px;
+        font-size: 10px;
+    }
+}

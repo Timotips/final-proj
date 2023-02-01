@@ -5,7 +5,7 @@
     align-items: center;
     display: flex;
     background: #714949;
-    z-index: 2;
+    z-index: 1;
     position: relative;
 }
 
@@ -15,34 +15,18 @@
     align-items: center;
     display: flex;
     width: 1920px;
-    height: 965px;
+    height: 691px;
     background: #56575E;
-    z-index: 0;
 }
 
-.background_headear {
-    width: 1920px;
-    height: 144px;
-    position: absolute;
-    top: 0;
-    background: #714949;
-    z-index: 4;
-}
 
-.background_footer {
-    width: 1920px;
-    height: 137px;
-    position: absolute;
-    bottom: 0;
-    background: #714949;
-    z-index: 4;
-}
 
 .details_background {
     mix-blend-mode: overlay;
     /* position: fixed;
     z-index: 0; */
     top: 50%;
+    object-fit: cover;
 }
 
 .title {
@@ -51,6 +35,7 @@
     gap: 140px;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .first_division{
@@ -171,3 +156,432 @@
 }
 
 
+@media only screen and (max-width: 1336px) {
+.container{
+    width: 100%;
+    height: 863px;
+}
+
+.background{
+    width: 100%;
+    height: 617.96px;
+}
+
+.details_background {
+    width: 100%;
+    height: 617.96px;
+}
+
+.title {
+    width: 100%;
+    height: 617.96px;
+    gap: 88px;
+}
+
+.first_division{
+    gap: 142px;
+}
+
+.second_division{
+    gap: 70.06px;
+}
+
+.detail {
+    gap: 24px;
+}
+
+.courses {
+    gap: 9.67px;
+}
+
+.mission {
+    gap: 14.03px;
+}
+
+.percentage {
+    width: 139.86px;
+    height: 101.06px;
+    font-size: 71px;
+    line-height: 85px;
+    font-weight: 300;
+}
+
+.description1 {
+    width: 305px;
+    height: 119px;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300;
+}
+
+.description2 {
+    width: 298px;
+    height: 38px;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300;
+}
+
+.number {
+    width: 59.84px;
+    height: 59.02px;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 300;
+}
+
+.info {
+    width: 222px;
+    height: 31px;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300;
+}
+
+.mission_header{
+    width: 186px;
+    height: 59px;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 300;
+}
+
+.mission_description {
+    width: 466.9px;
+    height: 169.92px;
+    font-weight: 400;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+}
+
+
+@media only screen and (max-width: 1050px) {
+    .container{
+        width: 100%;
+        height: 591px;
+    }
+    
+    .background{
+        width: 100%;
+        height: 423.19px;
+    }
+    
+    .details_background {
+        width: 100%;
+        height: 423.19px;
+    }
+    
+    .title {
+        width: 100%;
+        height: 423.19px;
+        gap: 50px;
+    }
+    
+    .first_division{
+        gap: 102px;
+    }
+    
+    .second_division{
+        gap: 74px;
+    }
+    
+    .detail {
+        gap: 17px;
+    }
+    
+    .courses {
+        gap: 8px;
+    }
+    
+    .mission {
+        gap: 16px;
+    }
+    
+    .percentage {
+        width: 152px;
+        height: 70px;
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 77px;
+    }
+    
+    .description1 {
+        width: 262px;
+        height: 96px;
+        font-size: 19px;
+        line-height: 23px;
+        font-weight: 300;
+    }
+    
+    .description2 {
+        width: 256px;
+        height: 18px;
+        font-size: 19px;
+        line-height: 23px;
+        font-weight: 300;
+    }
+    
+    .number {
+        width: 80px;
+        height: 59px;
+        font-size: 48px;
+        line-height: 58px;
+        font-weight: 300;
+    }
+    
+    .info {
+        width: 185px;
+        height: 31px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+    
+    .mission_header{
+        width: 135px;
+        height: 38px;
+        font-size: 36px;
+        line-height: 43px;
+        font-weight: 300;
+    }
+    
+    .mission_description {
+        width: 335px;
+        height: 107px;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 300;
+    }
+}
+
+@media only screen and (max-width: 835px) {
+    .container{
+        width: 100%;
+        height: 677px;
+    }
+    
+    .background{
+        width: 100%;
+        height: 484.77px;
+    }
+    
+    .details_background {
+        width: 100%;
+        height: 484.77px;
+    }
+    
+    .title {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        height: 484.77px;
+        gap: 51.21px;
+        
+    }
+    
+    .first_division{
+        flex-direction: row;
+        display: flex;
+        gap: 36px;
+    }
+    
+    .second_division{
+        gap: 37.68px;
+        width: 579px;
+        align-items: center;
+    }
+    
+    .detail {
+        gap: 14.4px;
+    }
+    
+    .courses {
+        gap: 18.73px;
+    }
+    
+    .mission {
+        gap: 11px;
+        width: 100%;
+    }
+    
+    .percentage {
+        width: 80.4px;
+        height: 43.97px;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    .description1 {
+        width: 192px;
+        height: 72.72px;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 300;
+    }
+    
+    .description2 {
+        width: 170px;
+        height: 21px;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 300;
+    }
+    
+    .number {
+        width: 80px;
+        height: 59px;
+        font-size: 48px;
+        line-height: 58px;
+        font-weight: 300;
+    }
+    
+    .info {
+        width: 185px;
+        height: 31px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+    
+    .mission_header{
+        width: 135px;
+        height: 38px;
+        font-size: 36px;
+        line-height: 43px;
+        font-weight: 300;
+    }
+    
+    .mission_description {
+        width: 579px;
+        height: 75px;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 300;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        height: 677px;
+    }
+}
+
+@media only screen and (max-width: 591px) {
+    .container{
+        width: 100%;
+        height: 677px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .container{
+        width: 100%;
+        height: 739px;
+    }
+    
+    .background{
+        width: 100%;
+        height: 529.17px;
+    }
+    
+    .details_background {
+        width: 100%;
+        height: 529.17px;
+    }
+    
+    .title {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        height: 529.17px;
+        gap: 60px;
+    }
+    
+    .first_division{
+        flex-direction: column;
+        display: flex;
+        gap: 39px;
+        align-items: flex-start;
+    }
+    
+    .second_division{
+        gap: 34px;
+        width: 296px;
+        align-items: flex-start;
+    }
+    
+    .detail {
+        gap: 17px;  
+        display: flex;
+        text-align: right;
+    }
+    
+    .courses {
+        gap: 6px;
+    }
+    
+    .mission {
+        gap: 8.93px;
+    }
+    
+    .percentage {
+        width: 65px;
+        height: 38.07px;
+        font-size: 30px;
+        line-height: 36px;
+        line-height: 48px;
+    }
+    
+    .description1 {
+        width: 200px;
+        height: 38.07px;
+        font-size: 13px;
+        line-height: 14px;
+        font-weight: 300;
+        text-align: left;
+    }
+    
+    .description2 {
+        width: 200px;
+        height: 12px;
+        font-size: 13px;
+        font-weight: 300;
+        text-align: left;
+    }
+    
+    .number {
+        width: 34px;
+        height: 31.5px;
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 300;
+    }
+    
+    .info {
+        width: 111px;
+        height: 17.06px;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 300;
+    }
+    
+    .mission_header{
+        width: 117.78px;
+        height: 30.45px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+    
+    .mission_description {
+        width: 296px;
+        height: 79px;
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 300;
+    }
+}

@@ -9,6 +9,18 @@ const Register  = () => {
 
             <div className={styles.background}>
                 <Image src="/register_background.png" width={'1920'} height={'990'} alt="School Building" className={styles.title_background} /> 
+                <Image src="/room.jpg" width={'1920'} height={'990'} alt="Logo" className={styles.second_background} /> 
+            </div>
+
+            <div className={styles.background_overlay}></div>
+
+            <div className={styles.title}>
+                <div className={styles.first_division}>
+                    <Image src="/logo.png" width={'567'} height={'458'} alt="Navbar Logo" className={styles.title_logo} /> 
+                </div>
+                <div className={styles.second_division}>
+                    <h1 className={styles.name}>Sacred Heart College</h1>
+                </div>
             </div>
             
 

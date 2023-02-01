@@ -11,7 +11,12 @@ export default function Navbar() {
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div> */}
-            <Image src="/nav_backgroud.png" width={'1920'} height={'54'} alt="Navbar Background" className={styles.navbar_background} /> 
+            {/* <Image src="/nav_backgroud.png" width={'1920'} height={'54'} alt="Navbar Background" className={styles.navbar_background} />  */}
+
+            <div className={styles.background}>
+                <div className={styles.scnd_color}></div>
+                <div className={styles.frst_color}></div>
+            </div>
 
             <ul className={styles.navbar_menu}>
                 <div className={styles.logo}>
