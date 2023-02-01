@@ -71,7 +71,7 @@ const Register  = () => {
 
                     <div className={styles.ques_line}>
                         <p className={styles.last_question}>Why do you want to study here?:</p>
-                        <input className={styles.input} type="text" name="input_box" />
+                        <textarea className={styles.input} type="text" name="input_box" />
                     </div>
                 </div>
 
