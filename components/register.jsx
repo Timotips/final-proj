@@ -87,11 +87,11 @@ function Register() {
                         <p className={styles.question}>Old Student?:</p>
                             <div className={styles.radio_box}>
                                 <div className={styles.radio_container}>
-                                    <input className={styles.returnee} type="radio" name="old_student" {...register("old_student")} />
+                                    <input className={styles.returnee} type="radio" name="old_student" value="1" {...register("old_student")} />
                                     <p>Yes</p>
                                 </div>
                                 <div className={styles.radio_container}>
-                                    <input className={styles.returnee} type="radio" name="old_student"  {...register("old_student")}/>
+                                    <input className={styles.returnee} type="radio" name="old_student"  value="0" {...register("old_student")}/>
                                     <p>No</p>
                                 </div>
                             </div>

@@ -23,7 +23,7 @@ app.post("/datainsert", (req, res) => {
   const email = req.body.email;
   const phone_number = req.body.phone_number;
   const address = req.body.address;
-  const old_student = req.body.old_tudent;
+  const old_student = req.body.old_student;
   const reason = req.body.reason;
 
   con.query(
