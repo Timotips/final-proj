@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from 'next/image'
 
 
-const Details  = () => {
+const Details = () => {
     return (
         <div className={styles.container}>
             <div className={styles.background}>
